@@ -1,5 +1,3 @@
-import os
-
 string = str(input("Enter the String: "))
 runes = list(string)
 
@@ -23,3 +21,4 @@ else:
     
 
         
+
