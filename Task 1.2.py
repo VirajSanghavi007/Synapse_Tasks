@@ -1,12 +1,7 @@
 import os
 
-runes = [
-    "a","b","c","d","e","f","g","h","i","j","k","l","x","y","z","m","n","o","p","q",
-    "r","s","t","u","v","w","x","y","z","a","b","c","d","e","f","g","h","i","j","k",
-    "l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","a","b","c","d","e",
-    "f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y",
-    "z","l","u","m","o","s","a","b","c","d","e","f","g","h","i","j","k","l","m","n"
-]
+string = str(input("Enter the String: "))
+runes = list(string)
 
 boolean = False
 
@@ -26,4 +21,5 @@ if boolean == True:
 else:
     print("-1")
     
+
         
